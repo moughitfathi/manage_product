@@ -1,4 +1,12 @@
 # product_manage_vue2
+c'est une petite application qui utilise:
+ VueJS: framework pour creer une application (Single One Page),
+ Axios:pour récupérer les données d'une api https://fakestoreapi.com/products
+ BootstrapVue: framework qui nous aident a faire un bon style,
+
+cette permet d’afficher un liste des produits à partir d’une API,soit tous les produits,soit des produits par categorie ou rating
+
+
 
 ## Project setup
 ```

@@ -23,7 +23,7 @@
       :sort-by.sync="sortBy"
       :sort-desc.sync="sortDesc" 
       :fields="fields"
-      sort-icon-left head-variant="dark" bordered 
+      sort-icon-left 
          hover 
       >
        
@@ -64,17 +64,20 @@
 </template>
 
 <script>
+   
 
 import axios from 'axios'
 export default {
   name: 'App',
+  components: {
+  },
 
   data() {
         return {
           product: [],
           category: {},
 
-          sortBy: 'age',
+          sortBy: 'price',
         sortDesc: false,
         fields: [
           { key: 'title', label:'title', sortable: false },
@@ -101,9 +104,8 @@ export default {
  
   },
   
-  components: {
-    
-  },
+  
+
   methods: {
     getproduct(){
       

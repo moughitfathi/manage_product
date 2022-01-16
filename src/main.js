@@ -11,6 +11,7 @@ new Vue({
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import 'bootstrap-vue/src/components/pagination'
 
 // Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue)

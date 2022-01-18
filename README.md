@@ -6,7 +6,7 @@ c'est une petite application qui utilise:
 
 cette permet d’afficher un liste des produits à partir d’une API,soit tous les produits,soit des produits par categorie ou rating
 
-
+visit link : https://61e47d543dc68e0007440106--relaxed-poitras-d07df5.netlify.app
 
 ## Project setup
 ```
